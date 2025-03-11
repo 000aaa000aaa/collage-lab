@@ -1,0 +1,480 @@
+#img-container{
+    position: absolute;
+    height: 100%;
+}
+
+#img-main{
+    position: absolute;
+    height: 100%;
+    opacity: 0.5;
+}
+
+
+/* ---------- andrew ---------- */
+
+@keyframes andrew-anim1 {
+ 
+    0% {
+        transform: matrix(30deg, 30deg);
+        left: 0px;
+    }
+        
+ 
+    50% {
+        transform: matrix(60deg, 60deg);
+    }
+        
+ 
+    100% {
+        transform: matrix(0deg, 0deg);
+        left: 100px;
+    }
+ 
+}
+ 
+@keyframes andrew-anim2 {
+ 
+    0% {
+        transform: skew(0deg, 150deg);
+        left: 0;
+    }
+        
+ 
+    50% {
+        transform: matrix(30deg, 30deg);
+    }
+        
+ 
+    100% {
+        transform: matrix(180deg, 180deg);
+        left: 100px;
+    }
+ 
+}
+ 
+@keyframes andrew-anim3 {
+ 
+    0% {
+        transform: matrix(100deg, 30deg);
+        left: 0;
+    }
+        
+ 
+    50% {
+        transform: skew(30deg, 30deg);
+    }
+        
+ 
+    100% {
+        transform: matrix(180deg, 180deg);
+        left: 100px;
+    }
+ 
+}
+ 
+@keyframes andrew-anim4 {
+ 
+    0% {
+        transform: skew(0deg, 0deg);
+    }
+        
+ 
+    50% {
+        transform: skew(15deg, 15deg);
+    }
+        
+ 
+    100% {
+        transform: skew(-5deg, -5deg);
+        
+    }
+ 
+}
+ 
+@keyframes andrew-anim5 {
+ 
+    0% {
+        transform: matrix(30deg, 30deg);
+        left: 0;
+    }
+        
+ 
+    50% {
+        transform: matrix(60deg, 60deg);
+    }
+        
+ 
+    100% {
+        transform: matrix(180deg, 180deg);
+        left: 50px;
+        
+    }
+ 
+}
+
+#andrew1-container{
+    position: absolute;
+    height: 100%;
+    filter: drop-shadow(10px 10px 5px rgb(0, 0, 0, 0.6));
+}
+ 
+#andrew1{
+    position: absolute;
+    height: 65%;
+    top: 20%;
+    left: 60px;
+    clip-path: polygon(57% 36%,69% 64%,41% 69%,19% 64%,14% 47%,22% 39%);
+    animation: andrew-anim1 4s ease-in-out 0s infinite normal forwards;
+}
+ 
+#andrew2-container{
+    position: absolute;
+    height: 100%;
+    filter: drop-shadow(10px 10px 5px rgb(0, 0, 0, 0.6));
+}
+ 
+#andrew2{
+    position: absolute;
+    height: 65%;
+    top: 25%;
+    clip-path: polygon(47% 60%,56% 75%,34% 85%,17% 91%,23% 67%,9% 55%);
+    animation: andrew-anim2 4s ease-in-out 0s infinite normal forwards;
+    opacity: 0.8;
+}
+ 
+#andrew3-container{
+    position: absolute;
+    height: 100%;
+    filter: drop-shadow(10px 10px 5px rgb(0, 0, 0, 0.6));
+}
+ 
+#andrew3{
+    position: absolute;
+    height: 65%;
+    top: 30%;
+    clip-path: polygon(46% 63%,58% 86%,55% 100%,19% 100%,10% 88%,27% 82%);
+    animation: andrew-anim3 4s ease-in-out 0s infinite normal forwards;
+    opacity: 0.8;
+}
+ 
+#andrew4-container{
+    position: absolute;
+    height: 100%;
+    filter: drop-shadow(10px 10px 5px rgb(0, 0, 0, 0.6));
+}
+ 
+#andrew4{
+    position: absolute;
+    height: 100%;
+    clip-path: polygon(39% 48%,20% 78%,31% 100%,0% 100%,0% 45%,22% 39%);
+    opacity: 0.9;
+    animation: andrew-anim4 4s ease-in-out 0s infinite normal forwards;
+}
+ 
+#andrew5-container{
+    position: absolute;
+    height: 100%;
+    filter: drop-shadow(10px 10px 5px rgb(0, 0, 0, 0.6));
+}
+ 
+#andrew5{
+    position: absolute;
+    height: 100%;
+    clip-path: polygon(39% 48%,46% 71%,31% 100%,14% 89%,16% 51%,22% 39%);
+    opacity: 0.7;
+    animation: andrew-anim5 2s ease-in-out 0s infinite normal forwards;
+}
+
+
+
+
+/* ---------- ash ---------- */
+
+
+@keyframes ash-rotate {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+   }
+
+@keyframes ash-rotate2 {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+   }
+
+@keyframes ash-bouncy {
+    from {transform: scale(1, 1);
+        transform-origin: center;}
+    to {transform: scale(1.1, 0.9);
+        transform-origin: center;}
+   }
+
+
+
+
+#ash1-container{
+    position: absolute;
+    height: 100%;
+    clip-path: ellipse(600px 200px at 50% 30%);
+    top: 2%;
+    scale: 120%;
+}
+
+#ash1{
+    position: absolute;
+    height: 100%;
+    animation: ash-bouncy 1s cubic-bezier(0.5, 0.7, 1.0, 0.2) 0s infinite alternate; 
+}
+
+
+
+#ash2-container{
+    position: absolute;
+    height: 100%;
+    clip-path: ellipse(200px 20px at 60% 20%);
+    top: 5px;
+    left: 20px;
+}
+
+#ash2{
+    position: absolute;
+    height: 100%;
+    animation: ash-rotate2 2s linear 0s infinite;
+}
+
+
+
+#ash3-container{
+    position: absolute;
+    height: 100%;
+    clip-path: ellipse(30px 500px at 50% 70%);
+    top: -350px;
+    left: 30%;
+    scale: 150%;
+}
+
+#ash3{
+    position: absolute;
+    height: 100%;
+    animation: ash-rotate 3s linear 0s infinite reverse;
+}
+
+
+
+
+/* ---------- ryan ---------- */
+
+
+@keyframes ryan-shape-anim {
+ 
+    0%{
+        transform: warp(0deg, 0deg);
+        left: 0;
+    }
+   
+    50%{
+        transform: warp(25deg, 25deg);
+    }
+   
+    100%{
+        transform: warp(-5deg,-5deg);
+        left: 50%;
+        height: 60%;
+    }
+   
+  }
+   
+  @keyframes ryan-shape-anim-2 {
+   
+      0%{
+          transform: warp(0deg, 0deg);
+          left: 0;
+      }
+   
+      50%{
+          transform: rotate(-180deg);
+          transform: scale(1.5);
+          right: 8%;
+          height: 50%;
+      }
+   
+      100%{
+          transform: rotate(-360deg);
+          transform: scale(2);
+          left: 25%;
+          height: 80%;
+      }
+         
+   
+    }
+   
+    @keyframes ryan-shape-anim-3 {
+      0% { transform: translate(1px, 1px) rotate(0deg); }
+      10% { transform: translate(-1px, -2px) rotate(-1deg); }
+      20% { transform: translate(-3px, 0px) rotate(1deg); }
+      30% { transform: translate(3px, 2px) rotate(0deg); }
+      40% { transform: translate(1px, -1px) rotate(1deg); }
+      50% { transform: translate(-1px, 2px) rotate(-1deg); }
+      60% { transform: translate(-3px, 1px) rotate(0deg); }
+      70% { transform: translate(3px, 1px) rotate(-1deg); }
+      80% { transform: translate(-1px, -1px) rotate(1deg); }
+      90% { transform: translate(1px, 2px) rotate(0deg); }
+      100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+
+#ryan1-container{
+    height: 100%;
+    position: absolute;
+}
+ 
+#ryan1{
+    height: 100%;
+    position: absolute;
+    opacity: 1;
+    clip-path: ellipse(15% 10% at 52.5% 57%);
+    animation: ryan-shape-anim 2.5s ease-in-out 0s infinite normal forwards;
+ 
+}
+ 
+#ryan2-container{
+    height: 100%;
+    position: absolute;
+}
+ 
+#ryan2{
+    height: 100%;
+    position: absolute;
+    clip-path: polygon(70% 80%, 85% 75%, 85% 45%);
+    border-radius: -10% -10%;
+    border-top-left-radius: -25%;
+    animation: ryan-shape-anim-2 3.5s ease-in-out 1s infinite normal backwards;
+ 
+}
+ 
+#ryan3-container{
+    height: 100%;
+    position: absolute;
+}
+ 
+#ryan3{
+    height: 100%;
+    position: absolute;
+    filter: drop-shadow(25px 25px 1px rgba(0, 0, 0, .5));
+    clip-path: polygon(80% 80%, 75% 100%, 100% 100%, 80% 75%);
+    scale: .8;
+    top: 10%;
+    animation: ryan-shape-anim-3 4s ease-in-out 2s infinite normal forwards;
+}
+
+
+
+/* ---------- susan ---------- */
+
+@keyframes susan-shape-anim{
+    0% {
+        transform: skew(0deg, 0deg);
+        top:50px;
+        left:0px;
+    }
+ 
+    50% {
+        transform: skew(15deg, 15deg);
+    }
+ 
+    100% {
+        transform: skew(-5deg, -5deg);
+        top: -10px;
+        left: 35px;
+    }
+ 
+}
+ 
+@keyframes susan-shape-anim-2{
+    0% {
+        transform:scale(60%, 60%);
+        left: 15px;
+        top: -75px;
+    }
+ 
+    50% {
+        left: -20px;
+    }
+ 
+    100% {
+        transform:scale(100%, 100%);
+        left: 15px;
+        top: -35px;
+    }
+ 
+}
+ 
+@keyframes susan-shape-anim-3{
+    0% {
+        transform:rotate(0deg);
+    }
+ 
+    50% {
+       top: 0px;
+    }
+ 
+    100% {
+        transform:rotate(25deg);
+        top: -100px;
+    }
+ 
+}
+ 
+ 
+#susan1-container{
+    position: absolute;
+    height: 100%;
+    filter: drop-shadow(10px 10px 5px rgba(0,0,0,0.5));
+    top: 25px;
+}
+ 
+#susan1{
+    position: absolute;
+    height: 100%;
+    clip-path:ellipse(80px 80px at 70% 12%);
+   
+}
+ 
+#susan1:hover{
+    animation: susan-shape-anim-2 2s ease-in-out 0s infinite normal forwards;
+   
+}
+ 
+#susan2-container{
+    position: absolute;
+    height: 100%;
+    filter: drop-shadow(15px 15px 10px rgba(0,0,0,0.5));
+}
+ 
+#susan2{
+    position: absolute;
+    height: 100%;
+    clip-path:polygon(100% 0%, 70% 40%, 100% 40% );
+}
+ 
+#susan2:hover{
+    animation: susan-shape-anim-3 2s ease-in-out 0s infinite normal forwards;
+   
+}
+ 
+#susan3-container{
+    position: absolute;
+    height: 100%;
+    filter: drop-shadow(15px 15px 10px rgba(0,0,0,0.5));
+    top: -20%;
+    left: 5%;
+}
+ 
+#susan3{
+    position: absolute;
+    height: 100%;
+    clip-path:inset(43% 43% 43% 43%  round 2% 2% );
+}
+ 
+#susan3:hover{
+    animation: susan-shape-anim 2s ease-in-out 0s infinite normal forwards;
+}
